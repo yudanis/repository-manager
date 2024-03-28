@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="329cdd4b-6471-4164-8afa-0665324d8ca1" name="YTR@YTR-LAPTOP 2024-03-28 12:01:49" runUser="YTR-LAPTOP\YTR" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="afbce444-c1e2-423d-9182-7b1e04fe2711">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="YTR_YTR-LAPTOP 2024-03-28 12_01_49">
+      <DeploymentItem filename="E:\Project\JobsTest\RepositoryManager\RepositoryManager\bin\Debug\RepositoryManager.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2024-03-28T12:01:49.4682692+07:00" queuing="2024-03-28T12:01:49.5308158+07:00" start="2024-03-28T12:01:49.5483034+07:00" finish="2024-03-28T12:01:49.9307137+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EnsureItCanRegisterItem" storage="e:\project\jobstest\repositorymanager\testproject1\bin\debug\testproject1.dll" id="cda4f12e-db82-807b-9565-f855454e226f">
+      <Execution id="31cbda75-4fce-4bd0-b4ce-aca6bb37a294" />
+      <TestMethod codeBase="E:/Project/JobsTest/RepositoryManager/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnsureItCanRegisterItem" />
+    </UnitTest>
+    <UnitTest name="EnsureItemCannotBeOverride" storage="e:\project\jobstest\repositorymanager\testproject1\bin\debug\testproject1.dll" id="2bed8d06-eb68-8c6b-6d96-c95efb0b61de">
+      <Execution id="5918edc5-232e-4f4b-82a4-1962ef59c324" />
+      <TestMethod codeBase="E:/Project/JobsTest/RepositoryManager/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnsureItemCannotBeOverride" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2bed8d06-eb68-8c6b-6d96-c95efb0b61de" executionId="5918edc5-232e-4f4b-82a4-1962ef59c324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cda4f12e-db82-807b-9565-f855454e226f" executionId="31cbda75-4fce-4bd0-b4ce-aca6bb37a294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5918edc5-232e-4f4b-82a4-1962ef59c324" testId="2bed8d06-eb68-8c6b-6d96-c95efb0b61de" testName="EnsureItemCannotBeOverride" computerName="YTR-LAPTOP" duration="00:00:00.0150540" startTime="2024-03-28T12:01:49.5503059+07:00" endTime="2024-03-28T12:01:49.8769763+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5918edc5-232e-4f4b-82a4-1962ef59c324">
+    </UnitTestResult>
+    <UnitTestResult executionId="31cbda75-4fce-4bd0-b4ce-aca6bb37a294" testId="cda4f12e-db82-807b-9565-f855454e226f" testName="EnsureItCanRegisterItem" computerName="YTR-LAPTOP" duration="00:00:00.0316123" startTime="2024-03-28T12:01:49.8769763+07:00" endTime="2024-03-28T12:01:49.9082237+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31cbda75-4fce-4bd0-b4ce-aca6bb37a294">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.EnsureItCanRegisterItem threw exception: 
+System.ArgumentException: Item is already exist and can not be override</Message>
+          <StackTrace>    at RepositoryManager.RepositoryManager.Register(String itemName, String itemContent, Int32 itemType) in E:\Project\JobsTest\RepositoryManager\RepositoryManager\RepositoryManager.cs:line 28
+   at TestProject1.UnitTest1.EnsureItCanRegisterItem() in E:\Project\JobsTest\RepositoryManager\TestProject1\UnitTest1.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

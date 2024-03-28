@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d8e7bfb1-b11a-42f3-b228-6a5b86c76793" name="YTR@YTR-LAPTOP 2024-03-28 11:50:25" runUser="YTR-LAPTOP\YTR" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="afbce444-c1e2-423d-9182-7b1e04fe2711">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="YTR_YTR-LAPTOP 2024-03-28 11_50_25">
+      <DeploymentItem filename="E:\Project\JobsTest\RepositoryManager\RepositoryManager\bin\Debug\RepositoryManager.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2024-03-28T11:50:25.4102399+07:00" queuing="2024-03-28T11:50:25.4727856+07:00" start="2024-03-28T11:50:25.4893924+07:00" finish="2024-03-28T11:50:25.8541065+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EnsureItCanRegisterItem" storage="e:\project\jobstest\repositorymanager\testproject1\bin\debug\testproject1.dll" id="cda4f12e-db82-807b-9565-f855454e226f">
+      <Execution id="469d9b7d-8408-4a32-baf1-13dd5ccc05f4" />
+      <TestMethod codeBase="E:/Project/JobsTest/RepositoryManager/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnsureItCanRegisterItem" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cda4f12e-db82-807b-9565-f855454e226f" executionId="469d9b7d-8408-4a32-baf1-13dd5ccc05f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="469d9b7d-8408-4a32-baf1-13dd5ccc05f4" testId="cda4f12e-db82-807b-9565-f855454e226f" testName="EnsureItCanRegisterItem" computerName="YTR-LAPTOP" duration="00:00:00.0159237" startTime="2024-03-28T11:50:25.4913970+07:00" endTime="2024-03-28T11:50:25.8026712+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="469d9b7d-8408-4a32-baf1-13dd5ccc05f4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,4 @@
+E:\Project\JobsTest\RepositoryManager\RepositoryManager\bin\Debug\RepositoryManager.dll
+E:\Project\JobsTest\RepositoryManager\RepositoryManager\bin\Debug\RepositoryManager.pdb
+E:\Project\JobsTest\RepositoryManager\RepositoryManager\obj\Debug\RepositoryManager.dll
+E:\Project\JobsTest\RepositoryManager\RepositoryManager\obj\Debug\RepositoryManager.pdb

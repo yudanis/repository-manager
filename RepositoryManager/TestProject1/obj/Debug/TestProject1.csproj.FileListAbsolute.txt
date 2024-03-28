@@ -1,0 +1,7 @@
+E:\Project\JobsTest\RepositoryManager\TestProject1\bin\Debug\TestProject1.dll
+E:\Project\JobsTest\RepositoryManager\TestProject1\bin\Debug\TestProject1.pdb
+E:\Project\JobsTest\RepositoryManager\TestProject1\bin\Debug\RepositoryManager.dll
+E:\Project\JobsTest\RepositoryManager\TestProject1\bin\Debug\RepositoryManager.pdb
+E:\Project\JobsTest\RepositoryManager\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+E:\Project\JobsTest\RepositoryManager\TestProject1\obj\Debug\TestProject1.dll
+E:\Project\JobsTest\RepositoryManager\TestProject1\obj\Debug\TestProject1.pdb
